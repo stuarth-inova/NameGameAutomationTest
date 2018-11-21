@@ -226,7 +226,7 @@ public class HomePage extends BasePage {
     }
 
     public void verifyChangesInFrequencyCorrectAndIncorrectSelections() {
-        /* Will pick 4 pre-selected names incorrectly each time: when one of these comes up, will pick 4 wrong before
+        /* Will pick 10 pre-selected names incorrectly each time: when one of these comes up, will pick 4 wrong before
          picking the right one. For any other name, will pick correctly on the first try. Count the number each name
          comes up as the target for all names.   */
         List<String> incorrectlyChosenNames = new ArrayList<>();
