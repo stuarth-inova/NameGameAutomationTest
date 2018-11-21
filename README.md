@@ -1,4 +1,4 @@
-# Name Game Test Automation
+﻿# Name Game Test Automation
 
 ### Tools
 - [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -11,6 +11,7 @@
 
 ### Importing
 - Clone/Download this project
+- On Linux, running Java jdk 1.8.0_191, I upgraded Chromedriver to latest version; I have included it in my repo
 - Intellij
   - File > Open
   - Navigate to this project
