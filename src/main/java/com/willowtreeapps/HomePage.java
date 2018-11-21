@@ -243,7 +243,7 @@ public class HomePage extends BasePage {
 
         Hashtable<String, Integer> occurenceCounter = new Hashtable<String, Integer>();
 
-        for(int mainCounter=0; mainCounter<50; mainCounter++) {
+        for(int mainCounter=0; mainCounter<5000; mainCounter++) {
             String nameToMatch = driver.findElement(By.id("name")).getText();
 
             // This counts the number of occurrences of each name to match; but if a wrong selection is given doesn't count nameToMatch twice
